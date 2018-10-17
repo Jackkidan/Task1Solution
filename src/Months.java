@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Months {
+public abstract class Months {
     public static Map<String, String> getMonths() {
         HashMap<String, String> months = new HashMap<>();
         months.put("01", "Января");

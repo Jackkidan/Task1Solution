@@ -1,6 +1,6 @@
 import java.util.Calendar;
 
-public class CheckBirthday {
+public abstract class CheckBirthday {
 
     public static void checkBirthday(String d, String m){
         Calendar cal = Calendar.getInstance();
